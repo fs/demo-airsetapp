@@ -1,0 +1,22 @@
+development:
+  api_key:
+  secret_key:
+  canvas_page_name:
+  callback_url:
+  pretty_errors: true
+  set_asset_host_to_callback_url: true
+
+test:
+  api_key: 
+  secret_key: 
+  canvas_page_name: 
+  callback_url:
+  set_asset_host_to_callback_url: true
+
+production:
+  api_key:
+  secret_key:
+  canvas_page_name:
+  callback_url:
+  pretty_errors: false
+  set_asset_host_to_callback_url: true
