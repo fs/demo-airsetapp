@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
   protected
   
   def airset
-    @airset ||= AirSet.new('WSPuyFXlCWmD', 'mfFVwEAzMMXPBxFttDjvUcJOhAUBNPjaJveA', session_key)
+    @airset ||= AirSet.new(APP_CONFIG['app_id'], APP_CONFIG['app_key'], session_key)
   end
   
   def prepare_current_user

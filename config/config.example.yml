@@ -1,0 +1,13 @@
+defaults: &defaults
+  app_name: AirSet.app
+  app_id: WSPuyFXlCWmD
+  app_key: mfFVwEAzMMXPBxFttDjvUcJOhAUBNPjaJveA
+    
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
