@@ -1,5 +1,5 @@
 set :application, "airsetapp"
-set :repository,  "git://github.com/fs/airsetapp.git"
+set :repository,  "git://github.com/fs/demo-airsetapp.git"
 set :scm, :git
 set :branch, "master"
 set :rails_env, "production"
